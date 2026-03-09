@@ -40,7 +40,6 @@ h5 {
     font-family: 'Arial';
     font-size: 15px;
     margin: 0px;
-    margin: 0px;
     padding: 0;
     display: block;
     margin-left: 25px;
@@ -52,6 +51,7 @@ h5 {
 
 .jpg {
     max-width: 90%;
+    max-height: auto;
     border-radius: 25px;
     margin-top: 25px;
     margin-bottom: 15px;
@@ -83,12 +83,14 @@ button {
     padding: 10px 25px;
     font-size: 15px;
     cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
+
+
 }
 
 a {
